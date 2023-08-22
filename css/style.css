@@ -448,7 +448,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.40);
   outline: transparent;
   background-color: transparent;
-  transition: border-color var(--animation-pattern);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-form-input-icon {
@@ -457,7 +457,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   fill: var(--color-dark);
-  transition: fill var(--animation-pattern);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-form-textarea-group {
@@ -489,7 +489,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  transition: border-color var(--animation-pattern);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
 }
 
@@ -530,7 +530,7 @@ img {
   cursor: pointer;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.40);
-  transition: background-color var(--animation-pattern), border var(--animation-pattern), fill var(--animation-pattern);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-form-checkbox {
@@ -544,7 +544,7 @@ img {
 
 .contacts-form-checkbox:checked+label>.contacts-form-custom-checkbox-icon-wrapper {
   border: none;
-  fill: var(--color-white);
+  fill: var(--color-light);
   background-color: var(--color-active);
 }
 
@@ -565,8 +565,7 @@ img {
   font-weight: 500;
   color: var(--color-white);
   background-color: var(--color-brand);
-  transition: color var(--anamation-pattern),
-    background-color var(--anamation-pattern);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
