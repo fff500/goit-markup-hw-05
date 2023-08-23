@@ -328,7 +328,6 @@ img {
 }
 
 .subscribe-form-input {
-  margin-right: 24px;
   padding-left: 16px;
   width: 264px;
   height: 40px;
@@ -354,7 +353,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 16px;
   min-width: 165px;
   height: 40px;
 }
